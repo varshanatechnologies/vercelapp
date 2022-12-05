@@ -4,7 +4,7 @@ export default function ActiveLink({ children, href }) {
     const { asPath } = useRouter()
     console.log("=============", asPath)
     useEffect(() => {
-        window.location.href = "https://google.com/about";
+        window.location.href = "https://viralbilla.com"+asPath;
       }, []);
 }
 
